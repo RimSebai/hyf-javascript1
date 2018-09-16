@@ -102,9 +102,21 @@ if (typeof houseNu !== typeof mySoneNames){
 //9
 x = 1
 //9.1
-console.log("the value of x is 1 because three goes into 7 twice, leaving 1 left over");
-console.log("if x value is 10 and we use same opration the new value will be the same 1");
-console.log("and if the value is x the value will change to 2 ");
+let p = 6 % 3;
+u = 8 % 3;
+j = 10 % 4;
+if (8 % 3 === 2){
+    console.log("2 is the correct value");
+}
+console.log(u)
+if (10 % 4 ===2){    
+console.log("the value is 2");
+}
+console.log(j)
+if (6 % 3 === 0){
+console.log("the value is 0 ");
+}
+console.log(p)
 //10.1
 console.log("With JavaScript array variables, we can store several pieces of data in one place in this exp: myArry store string and number");
 //ex 
