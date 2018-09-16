@@ -1,7 +1,7 @@
 //1
 console.log ("Salut Lume!" , "Hallo Wereld!","Bonjour le monde!");
 //2
-console.log('I am awesome');
+console.log("I \'am awesome");
 //3.1
 let x
 //3.2
