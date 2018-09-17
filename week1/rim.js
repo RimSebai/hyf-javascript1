@@ -125,10 +125,11 @@ let animalesAge = [{sort:"rabbit", year:8},
 ]
 //10.2
 console.log(animalesAge);
+
 if (6/0 === 10/0){
     console.log("yes I Can compare infinities");
 }
-//10.3 
+
 
 
 
