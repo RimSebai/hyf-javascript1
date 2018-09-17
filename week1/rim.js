@@ -72,10 +72,10 @@ let country = {
 }
 let myAddress = ("kazerenestraat");
 //8.2
-console.log(mySonsNames);
-console.log(country);
-console.log(myAddress);
-console.log(houseNu);
+console.log("The value of my variable mySonsNames is" +  mySonsNames);
+console.log("The value of my variable country is" +  country);
+console.log("The value of my variable myAddress is" +  myAddress);
+console.log("The value of my variable housNu is" + houseNu);
 //8.3
 console.log("type of mySonNames will be string because JS read arrays as string, the type of var houseNu is numbers ,var country is object,myAddress is string");
 //8.4
