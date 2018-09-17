@@ -79,13 +79,10 @@ console.log("The value of my variable housNu is" + houseNu);
 //8.3
 console.log("type of mySonNames will be string because JS read arrays as string, the type of var houseNu is numbers ,var country is object,myAddress is string");
 //8.4
-console.log (typeof ['Sam','Fateh']);
-console.log(typeof 27 );
-console.log(typeof {
-    name:"Netherlands" ,
-    capital: "Amsterdam"
-});
-console.log(typeof ("kazerenestraat"));
+console.log (typeof mySonsNames);
+console.log(typeof country);
+console.log(typeof myAddress);
+console.log(typeof houseNu);
 //8.5
 if(typeof country !== typeof houseNu){
     console.log("country and houseNu variables are not the same type");
