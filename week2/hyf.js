@@ -5,23 +5,23 @@ myString = myString.replace(/,/g,' ');
 console.log(myString);
 
 let favoriteAnimals = ['blowfish', 'capricorn', 'giraffe'];
-favoriteAnimals.push("turtel");
+favoriteAnimals.push("turtle");
 console.log(favoriteAnimals);
 favoriteAnimals.splice (1 ,0,"meerkat");
-console.log("the new valeu will be Mauro's and Jim's favorite animals + me favorite animals");
+console.log("the new value will be Mauro's and Jim's favorite animals + me favorite animals");
 console.log(favoriteAnimals);
 console.log("The array has a length of " + favoriteAnimals.length);
-favoriteAnimals.splice(3,1)[0];
+favoriteAnimals.splice(3,1);
 console.log(favoriteAnimals);
 console.log("The item you are looking for is at index: "+ favoriteAnimals.indexOf("meerkat"));
-favoriteAnimals.splice( 1,1)[0];
+favoriteAnimals.splice( 1,1);
 console.log(favoriteAnimals);
 
 //More Java Script ____1
-function myFunction (a ,b ,c){
+function sum (a ,b ,c){
     return a + b + c ;   
 }
-console.log(myFunction(1,5,6)) ;
+console.log(sum(1,5,6)) ;
 
 //___2_____
 function colorCar (color){
@@ -32,7 +32,7 @@ console.log(colorCar("red"));
 //____3_____
 let fullName = {
     firstName:"Rim",
-    LastName:"Sebai"
+    lastName:"Sebai"
 }
 function myInfo (object){
 for (let key in object){
@@ -108,14 +108,14 @@ console.log(list);
 let myObj = {};
 
 //___13____
-let teachera = {
+let teacher = {
     1:"jim",
     2:"Ivana",
     3:"Daniela"
 };
 
 //____14_____
-teachers = {
+teacher = {
     1:{
         name:"Jim",
         lang:["JS"]
@@ -146,6 +146,7 @@ if (x === y){
     console.log("yes");
 }else{console.log("NO")   
 }
+console.log("array z and array x and y have different separate addresses in memory so they will not equal eachother even though the values are equal")
 
 //____16_______
 let o1 = { foo: 'bar' };
@@ -158,12 +159,12 @@ console.log(o3);
 
 o2 = {type:"lap"};
 console.log(o3);
-console.log("changing o2 does change o3");
+console.log("changing o2 does change o3 because we set the value of o2 to o3 so whenever we change 02  o3 will change");
 o1 = "x";
 console.log(o3);
 console.log("changing o1 does not change o3");
-
-console.log("let o2 = o3 Identifier 'o2' has already been declared")
+//Does the order that you assign (o3 = o2 or o2 = o3) matter?
+console.log(" yes,when we set o3 to o2 and it is already declared so we gave o2 value to o3, but if we start with o2 then we set new value witches o3 to o2 ")
 
 //_____17_______
 let bar = 42;
