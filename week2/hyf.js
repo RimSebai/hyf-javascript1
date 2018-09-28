@@ -99,6 +99,7 @@ for(let i = 0; i < list.length-2; i++){
 }
 advertisement += list[list.length-2] + "s and "  + list[list.length-1] +'s.'
 console.log(advertisement);
+document.write(advertisement);
 
 //____11___
 list.push("plane");
